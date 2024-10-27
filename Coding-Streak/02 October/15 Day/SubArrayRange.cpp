@@ -37,7 +37,7 @@ int countSubarraySum(int arr[], int n, int sum)
 int subArraySum(vector<int> &arr, int tar)
 {
     unordered_map<int, int> mp;
-    
+
     int count = 0;
     int curr_sum = 0;
 
