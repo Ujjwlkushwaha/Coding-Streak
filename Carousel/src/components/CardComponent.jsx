@@ -4,7 +4,7 @@ const CardComponent = ({ imageSrc, title, description, tags }) => {
   return (
     <div className="max-w-[400px] m-10 mx-auto">
       <div className="relative bg-white rounded-lg overflow-hidden shadow-lg">
-        <div className="relative h-72">
+        <div className="relative h-72 rounded-3xl overflow-hidden">
           <img
             src={imageSrc}
             alt="Trust & Co."
